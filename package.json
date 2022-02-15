@@ -1,0 +1,23 @@
+{
+  "name": "wordle-tracker-bot",
+  "version": "1.0.0",
+  "description": "A discord bot which tracks the winner for each day.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app.js"
+  },
+  "keywords": [
+    "wordle",
+    "tracker",
+    "discord",
+    "bot"
+  ],
+  "author": "Filipe 'Vilmax' Varela",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "install": "^0.13.0",
+    "nodemon": "^2.0.15"
+  }
+}
